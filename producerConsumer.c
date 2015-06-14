@@ -1,13 +1,13 @@
 /*
 *	Luis Ospina
 *	Producer Consumer problem in a Pizzeria! using semaphores.
-*   For this solution, there will be a number of consumers and a number of producers,
-* 	the program finishes when all the consumers are satisfied, that is, in order to 
-*	establish a finishing point for the algorithm. It could also be implemented with
-*	one producer, one costumer and a number of elements needed or this could be made
-*	setting the number of producers to 1 and the number of consumers to 1 and just
-*	changing the number of pizzas the consumer will ask for and the number of pizzas
-*	that could be prepared.
+	   	For this solution, there will be a number of consumers and a number of producers,
+	 	the program finishes when all the consumers are satisfied, that is, in order to 
+*		establish a finishing point for the algorithm. It could also be implemented with
+*		one producer, one costumer and a number of elements needed or this could be made
+*		setting the number of producers to 1 and the number of consumers to 1 and just
+*		changing the number of pizzas the consumer will ask for and the number of pizzas
+*		that could be prepared.
 *
 *	Compile as:
 *		gcc producerConsumer.c -o  producerConsumer -lpthread
